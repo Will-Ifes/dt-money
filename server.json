@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-12-20T20:11:26.659Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-12-20T20:00:10.659Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2022-12-20T20:35:10.659Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "category": "Venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2022-12-27T13:19:48.269Z",
+      "id": 4
+    },
+    {
+      "description": "Açaí",
+      "category": "Alimentação",
+      "price": 25,
+      "type": "outcome",
+      "createdAt": "2022-12-27T13:44:46.999Z",
+      "id": 5
+    },
+    {
+      "description": "Curso para FrontEnd",
+      "category": "Educação",
+      "price": 700,
+      "type": "outcome",
+      "createdAt": "2022-12-27T13:57:59.222Z",
+      "id": 6
+    },
+    {
+      "description": "Viagem",
+      "category": "Lazer",
+      "price": 5000,
+      "type": "outcome",
+      "createdAt": "2022-12-27T17:48:47.840Z",
+      "id": 7
+    }
+  ]
+}
