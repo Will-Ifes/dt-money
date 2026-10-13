@@ -2,18 +2,19 @@
 
 Interface para registrar entradas e saídas, pesquisar transações e acompanhar saldo.
 
-## Contexto e objetivo
-
 Projeto de estudo da trilha Ignite da Rocketseat: React, TypeScript, context selectors, Axios, React Hook Form, Zod, Radix e styled-components.
 
-## Funcionalidades presentes
+## Destaques
 
 - Consulta e criação de transações.
 - Pesquisa textual com ordenação por data.
 - Resumo de entradas, saídas e saldo.
 - Formulário em modal.
 
-## Por dentro do código
+<details>
+<summary><strong>Organização e código</strong></summary>
+
+### Por dentro do código
 
 | Código | O que observar |
 | --- | --- |
@@ -22,7 +23,12 @@ Projeto de estudo da trilha Ignite da Rocketseat: React, TypeScript, context sel
 | [`src/components/NewTransactionMondal/index.tsx`](src/components/NewTransactionMondal/index.tsx) | Formulário. |
 | [`src/lib/axios.ts`](src/lib/axios.ts) | Configuração da API. |
 
-## Executar localmente
+</details>
+
+<details>
+<summary><strong>Executar e consultar</strong></summary>
+
+### Executar localmente
 
 Requer Node.js e npm compatíveis com as dependências versionadas.
 
@@ -37,7 +43,7 @@ Abra o endereço informado pelo servidor no terminal.
 
 Em outro terminal, execute `npm run dev:server`. A API de demonstração usa JSON Server na porta 3333 e os registros de `server.json`.
 
-## Comandos disponíveis
+### Comandos disponíveis
 
 | Comando | Script versionado |
 | --- | --- |
@@ -48,11 +54,14 @@ Em outro terminal, execute `npm run dev:server`. A API de demonstração usa JSO
 | `npm run build` | `tsc && vite build` |
 | `npm run preview` | `vite preview` |
 
-Os comandos refletem o `package.json`. A existência de um script não comprova execução bem-sucedida no ambiente atual.
+</details>
 
-## Escopo e evolução
+<details>
+<summary>Escopo e referências</summary>
 
-A API é uma simulação local, sem autenticação ou infraestrutura financeira. Tratamento de falhas e testes de cálculo são evoluções possíveis.
+A API é uma simulação local, sem autenticação ou infraestrutura financeira.
+
+</details>
 
 ---
 
