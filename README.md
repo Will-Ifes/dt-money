@@ -1,8 +1,19 @@
+<p align="center">
+  <img src="./.github/readme-cover.svg" alt="DT Money: Entradas, saídas e saldo em uma interface." width="100%" />
+</p>
+
 # DT Money · transações
 
 Interface para registrar entradas e saídas, pesquisar transações e acompanhar saldo.
 
 Projeto de estudo da trilha Ignite da Rocketseat: React, TypeScript, context selectors, Axios, React Hook Form, Zod, Radix e styled-components.
+
+## Explore o diferencial
+
+| Ponto de entrada | O que observar |
+| --- | --- |
+| [Regra do resumo](src/hooks/useSummary.ts) | Entradas e saídas são agregadas em um hook dedicado ao saldo. |
+| [Formulário e validação](src/components/NewTransactionMondal/index.tsx) | O modal concentra a criação de transações e o contrato dos campos. |
 
 ## Destaques
 
